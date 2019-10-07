@@ -20,5 +20,9 @@ public class AbstractClassChild extends AbstractClassExample{
 		
 		
 	}
+	
+	public String toString() {
+		return "ID: " + id;
+	}
 
 }
